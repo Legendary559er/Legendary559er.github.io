@@ -1,21 +1,36 @@
-body {
-	background: #efefef;
-	font-family:ariel;
+*{
+	margin: 0;
+	padding: 0;
 }
-h1{
-	font-size: 18px;
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: grey;
 }
-a{
-	color: #000000;
-	text-decoration:underline;
+
+.container{
+	background-color: pink;
+	font-family: "indie flower", cursive;
+	width: 80%;
+	margin: auto;
 }
-a:hover{
-	color: #000000;
-	text-decoration: none;
+
+.container h1{
+	background-color: yellow;
+	color: red;
+	margin-top: 30px;
+	text-align: center;
 }
-h2{
-	font-size: 16px;
+
+.container h2{
+	background-color: gold;
+	color: silver;
+	margin: auto;
+	width: 80%;
+	text-align: center;
 }
-p{
-font-size: 14px;
+#img{
+	text-align: center;
+	background-color: purple;
 }
