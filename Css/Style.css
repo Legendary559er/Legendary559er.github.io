@@ -1,36 +1,17 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-
 body{
-	width: 100%;
-	height: 100%;
-	background-color: grey;
+	background-color: gray;
+	margin: auto;
+	padding: 0;
+	font: arial;
+	font-size: 18px;
 }
 
 .container{
-	background-color: pink;
-	font-family: "indie flower", cursive;
 	width: 80%;
 	margin: auto;
+	
 }
-
-.container h1{
-	background-color: yellow;
-	color: red;
-	margin-top: 30px;
-	text-align: center;
-}
-
-.container h2{
-	background-color: gold;
-	color: silver;
-	margin: auto;
-	width: 80%;
-	text-align: center;
-}
-#img{
-	text-align: center;
-	background-color: purple;
+.box-1{
+	background-color: #333;
+	color:#fff;
 }
