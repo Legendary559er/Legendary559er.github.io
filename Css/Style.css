@@ -75,7 +75,7 @@ a:visited{
 }
 
 .iframe{
-	padding: 0;
+	padding: 25px;
 	text-align: center;
 	background-color: red;
 	border: silver solid;
