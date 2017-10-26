@@ -2,7 +2,7 @@ body{
 	background-color: gray;
 	margin: auto;
 	padding: 0;
-	font: arial;
+	font: stencil;
 	font-size: 18px;
 	line-height: 1.6em;
 
@@ -25,9 +25,9 @@ a:visited{
 }
 
 .container{
-	width: 80%;
+	width: 53%;
 	margin: auto;
-	
+	padding: 5px;
 }
 
 .box-1{
@@ -35,42 +35,40 @@ a:visited{
 	color:#fff;
 	border:5px red solid;
 	padding: 20px;
-	margin: 20px;
-
 }
 
-.box- h1{
-	font-family: tahoma;
+.box-1 h1{
+	font-family: stencil;
 	font-style: italic;
 	text-decoration: underline;
 }
 
 .categories{
-	border: 1px;
-	padding:40px;
-	border-radius: 15px;
-	box-sizing: border-box;
-	border: 1px solid #000;
+	padding:5px;
+	background-color:red;
 }
 
 .categories h2{
 	text-align:center;
+	text-decoration: italic;
 }
 
 .categories ul{
 	padding:0;
 	padding-left: 5px;
-	list-style: square;
+	word-spacing: 2px;
+	border-spacing: 10px;
 }
 
 .categories li{
 	padding-bottom: 8px;
-	border-bottom: double;
+	display: inline-table;
+	background-color: #333
 
 }
 
 .img{
-	padding: 0;
+	padding: 5px;
 	text-align:center;
 	border: gold solid;
 	background-color: black;
@@ -79,4 +77,15 @@ a:visited{
 .iframe{
 	padding: 0;
 	text-align: center;
+	background-color: red;
+	border: silver solid;
+}
+
+.paragraph{
+	background-color: black;
+	color: silver;
+	margin: 25px;
+	padding: 5px;
+	font-size: 24px;
+	text-align:center;
 }
