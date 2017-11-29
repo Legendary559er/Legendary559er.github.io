@@ -1,10 +1,7 @@
 body{
-	background-color: gray;
-	margin: auto;
-	padding: 0;
-	font: stencil;
-	font-size: 18px;
-	line-height: 1.6em;
+	background-image: url(image/Bridge.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 a{
 	text-decoration: none;
@@ -12,15 +9,15 @@ a{
 }
 
 a:hover{
-	color: red;
+	color: gold;
 }
 
 a:active{
-	color:black;
+	color:white;
 }
 
 a:visited{
-	color:gold;
+	color:gray;
 }
 
 .container{
@@ -42,28 +39,28 @@ a:visited{
 	text-decoration: underline;
 }
 
-.categories{
-	padding:5px;
-	background-color:red;
-}
 
-.categories h2{
-	text-align:center;
-	text-decoration: italic;
+.box-1 h2{
+	text-decoration: bold;
 }
 
 .categories ul{
-	padding:0;
-	padding-left: 5px;
+	padding: 5px;
 	word-spacing: 2px;
-	border-spacing: 10px;
+	border-spacing: 100px;
+	align-self: center;
 }
 
 .categories li{
-	padding-bottom: 8px;
-	display: inline-table;
-	background-color: #333;
-
+	margin:0%;
+	padding:0%;
+	list-style: none;
+	float: left;
+	width: 200px;
+	height: 40;
+	background-color:silver;
+	opacity: .8;
+	text-align:center;
 }
 
 .img{
@@ -71,13 +68,6 @@ a:visited{
 	text-align:center;
 	border: gold solid;
 	background-color: black;
-}
-
-.iframe{
-	padding: 25px;
-	text-align: center;
-	background-color: red;
-	border: silver solid;
 }
 
 .paragraph{
