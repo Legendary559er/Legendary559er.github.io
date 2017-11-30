@@ -1,5 +1,5 @@
 body{
-	background-image: url(image/Bridge.jpg);
+	background-image: url(Image/background.JPG);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -64,10 +64,10 @@ a:visited{
 }
 
 .img{
-	padding: 5px;
+	padding: 10px;
 	text-align:center;
 	border: gold solid;
-	background-color: black;
+	line-height: 100px;
 }
 
 .paragraph{
