@@ -4,16 +4,16 @@ body{
 	background-size: cover;
 }
 
-a:hover{
-	color: gold;
-}
-
 a:active{
-	color: white;
+	color:white;
 }
 
 a:visited{
 	color: gray;
+}
+
+a:hover{
+	color: gold;
 }
 
 a{
