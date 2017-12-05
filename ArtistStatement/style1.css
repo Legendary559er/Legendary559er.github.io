@@ -1,6 +1,17 @@
 body{
-	background-color: #333;
-	color:#fff;
-	border:5px red solid;
+	background-image: url(background.jpg);
+	background-size: cover;
+	color:red;
 	padding: 20px;
+	align-self: center;
+}
+
+.paragraph{
+	font-size: 8mm;
+	background-color: black;
+}
+
+.footer{
+	color: white;
+	font-size: 8mm;
 }
