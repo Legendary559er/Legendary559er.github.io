@@ -22,8 +22,8 @@ a{
 }
 
 .box-1{
-	background-color: #333;
-	color:#fff;
+	background-color: black;
+	color:white;
 	border:5px red solid;
 	padding: 20px;
 }
@@ -71,4 +71,9 @@ a{
 	margin: auto;
 	padding: 5px;
 	text-align:center;
+}
+
+.footer{
+	font-size: 8mm;
+	color:white;
 }
