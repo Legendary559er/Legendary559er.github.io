@@ -1,12 +1,18 @@
 body{
 	background-image: url(background.jpg);
 	background-size: cover;
-	color:red;
+	background-repeat: none;
+	color:silver;
 	padding: 20px;
 	align-self: center;
 }
+.image{
+	text-align: center;
+}
 
 .paragraph{
+	padding:auto;
+	margin: auto;
 	font-size: 8mm;
 	background-color: black;
 }

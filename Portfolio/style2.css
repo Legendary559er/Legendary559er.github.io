@@ -1,12 +1,26 @@
 body{
 	background-color: gray;
 	margin: auto;
-	padding: 0;
+	padding: 15px;
 	line-height: 1.6em;
-}
-.container{
 	align-self: center;
+	word-spacing: 10px;
 }
+
+.header{
+	margin: auto;
+	padding: auto;
+	background-color: black;
+	color:gray;
+}
+
+.container{
+	text-align: center;
+	margin:auto;
+	border: black solid;
+
+}
+
 .footer{
 	color: white;
 	font-size: 8mm;
