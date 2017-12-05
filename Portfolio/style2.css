@@ -4,7 +4,6 @@ body{
 	padding: 15px;
 	line-height: 1.6em;
 	align-self: center;
-	word-spacing: 10px;
 }
 
 .header{
@@ -22,6 +21,8 @@ body{
 }
 
 .footer{
-	color: white;
-	font-size: 8mm;
+	color: black;
+	font-size: 5mm;
+	align-self: center;
+	text-align:center;
 }
